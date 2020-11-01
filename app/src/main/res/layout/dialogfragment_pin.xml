@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialogfragment">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinCodeDialogFragment_title_init"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="10dp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            
+            <!--● ○ -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_0"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_1"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_2"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_3"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_4"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_pw_5"
+                android:text="○"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+        
+        </LinearLayout>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_1"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_2"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_3"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_4"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_5"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_6"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_7"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_8"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_9"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton_close"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_close"
+            android:layout_weight="1"
+            tools:ignore="ContentDescription" />
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_0"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:background="?attr/selectableItemBackground" />
+        
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton_backspace"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_backspace"
+            android:layout_weight="1"
+            tools:ignore="ContentDescription"
+            android:clickable="true"
+            android:focusable="true" />
+    
+    </LinearLayout>
+
+</LinearLayout>

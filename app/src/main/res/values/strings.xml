@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="menu_home">Home</string>
+    <string name="menu_cards">Cards</string>
+    <string name="menu_balance">Balance</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_me">Me</string>
+    
+    <string name="fingerprintDialogFragment_title">Fingerprint</string>
+    <string name="fingerprintDialogFragment_failed_toast">Authentication failed</string>
+    <string name="pinCodeDialogFragment_title_init">Input 6-digit pin</string>
+    
+    <string name="str_cancel">Cancel</string>
+    
+    <string name="balanceFragment_balance_title">Balance</string>
+    <string name="balanceFragment_income_title">Total Income</string>
+    <string name="balanceFragment_expenditure_title">Total Expenditure</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:title="@string/menu_cards"
+        android:id="@+id/menu_cards"
+        android:icon="@drawable/ic_cards"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:title="@string/menu_accounts"
+        android:id="@+id/menu_accounts"
+        android:icon="@drawable/ic_accounts"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:title="@string/menu_home"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:title="@string/menu_balance"
+        android:id="@+id/menu_balance"
+        android:icon="@drawable/ic_balance"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:title="@string/menu_me"
+        android:id="@+id/menu_me"
+        android:icon="@drawable/ic_me"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+</menu>
